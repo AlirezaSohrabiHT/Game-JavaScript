@@ -1,0 +1,30 @@
+body{
+    // background: #834DCE;
+    // background: -moz-linear-gradient(-45deg, #834DCE 0%, #1C6EA4 40%, #58C5AF 100%);
+    // background: -webkit-linear-gradient(-45deg, #834DCE 0%, #1C6EA4 40%, #58C5AF 100%);
+    // background: linear-gradient(135deg, #834DCE 0%, #1C6EA4 40%, #58C5AF 100%);
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    h2{
+        font-size: larger;
+        color: rgb(207, 14, 14);
+        font-family: sans-serif;
+    }
+    .Rock-Papr-Scissors iframe{
+        margin-top: 2%;
+        width: 450px;
+        height: 250px;
+    }
+    .MEMMORYGAME iframe{
+        margin-top: 2%;
+        width: 450px;
+        height: 400px;
+    }
+}
+
