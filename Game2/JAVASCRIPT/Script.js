@@ -1,0 +1,6 @@
+const CardArray = [
+    {
+        name: 'fires',
+    //    
+    }
+]
